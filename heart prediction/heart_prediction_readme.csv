@@ -1,6 +1,6 @@
 # Heart Disease Prediction Using Logistic Regression
 This project implements a **machine learning model** to predict the risk of **10-year coronary heart disease (CHD)** using the Framingham Heart Study dataset. The model uses logistic regression and standard Python data science libraries.
-🗂 Project Structure
+ Project Structure
 "```
 heart-disease-prediction/
 │
@@ -12,42 +12,40 @@ heart-disease-prediction/
 └── requirements.txt          # Python dependencies
 ```"
  🧰 Technologies Used
-- Python 3.x
-"- Pandas, NumPy"
-"- Matplotlib, Seaborn"
-"- Scikit-learn (Logistic Regression, StandardScaler, train_test_split)"
-- CSV for data handling
- Features
-""
-1. **Data Cleaning:**
-   - Drops unnecessary columns
-   - Handles missing values (drop or fill with mean)
-""
-2. **Data Preprocessing:**
-   - Standardizes features
-   - Splits data into training and testing sets
-""
-3. **Modeling:**
-   - Logistic Regression model to predict 10-year CHD risk
-""
-4. **Evaluation:**
-"   - Accuracy, confusion matrix, classification report"
-   - Plots for target distribution and trends
-""
-5. **Extras:**
-   - Saves cleaned dataset (`framingham_cleaned.csv`)
-   - Optional: save Python source code into CSV (`heart_prediction_code.csv`)
-""
----
-""
-## 📈 How to Run
+1. Python 3.x
+2." Pandas, NumPy"
+3." Matplotlib, Seaborn"
+4."Scikit-learn (Logistic Regression, StandardScaler, train_test_split)"
+5.CSV for data handling
+6.Features
+
+1. Data Cleaning:
+    Drops unnecessary columns
+    Handles missing values (drop or fill with mean)
+
+2. Data Preprocessing:
+    Standardizes features
+    Splits data into training and testing sets
+
+3. Modeling:
+    Logistic Regression model to predict 10-year CHD risk
+
+4. Evaluation:
+    Accuracy, confusion matrix, classification report
+    Plots for target distribution and trends
+
+5. Extras:
+    Saves cleaned dataset (`framingham_cleaned.csv`)
+    Optional: save Python source code into CSV (`heart_prediction_code.csv`)
+
+## How to Run
 ""
 1. Clone the repository:
 "```bash
 git clone https://github.com/yourusername/heart-disease-prediction.git
 cd heart-disease-prediction
 ```"
-""
+
 2. Install dependencies:
 "```bash
 pip install -r requirements.txt
@@ -59,36 +57,33 @@ python ""heart prediction.py""
 ```"
 ""
 4. Outputs:
-   - Cleaned dataset: `framingham_cleaned.csv`
-   - Confusion matrix and model evaluation printed in console
-   - Optional: Python code saved in `heart_prediction_code.csv`
-""
----
-""
-## 📊 Dataset
+    Cleaned dataset: `framingham_cleaned.csv`
+    Confusion matrix and model evaluation printed in console
+    Optional: Python code saved in `heart_prediction_code.csv`
+
+##  Dataset
 ""
 The dataset comes from the **Framingham Heart Study** and contains the following columns:
 ""
-- `age` — Age of patient
-"- `male` / `Sex_male` — Gender (1 = male, 0 = female)"
-- `cigsPerDay` — Cigarettes smoked per day
-- `totChol` — Total cholesterol
-- `sysBP` — Systolic blood pressure
-- `glucose` — Glucose level
-"- `TenYearCHD` — Target variable (1 = develop CHD in 10 years, 0 = otherwise)"
-""
+ `age` — Age of patient
+" `male` / `Sex_male` — Gender (1 = male, 0 = female)"
+ `cigsPerDay` — Cigarettes smoked per day
+ `totChol` — Total cholesterol
+ `sysBP` — Systolic blood pressure
+ `glucose` — Glucose level
+" `TenYearCHD` — Target variable (1 = develop CHD in 10 years, 0 = otherwise)"
+
 > The `education` column is dropped as it is not used in this analysis.
-""
----
-""
-## 📂 License
+
+
+## License
 ""
 This project is open-source and available under the MIT License.
-""
----
-""
-## 👨‍💻 Author
+
+##  Author
 ""
 **Abhilash**
-- GitHub: [https://github.com/yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [https://github.com/abhilash7989]
+- Email:abhilashabhi4246@gmail.com
+-linkdin:www.linkedin.com/in/abhilash-abhi-b7415a25a
+
